@@ -6,6 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		132260E82E6CC787009DE586 /* K2D-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132260DC2E6CC787009DE586 /* K2D-Italic.ttf */; };
+		132260E92E6CC787009DE586 /* K2D-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132260E02E6CC787009DE586 /* K2D-MediumItalic.ttf */; };
+		132260EA2E6CC787009DE586 /* K2D-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132260DD2E6CC787009DE586 /* K2D-Light.ttf */; };
+		132260EB2E6CC787009DE586 /* K2D-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132260DA2E6CC787009DE586 /* K2D-ExtraLight.ttf */; };
+		132260EC2E6CC787009DE586 /* K2D-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132260E22E6CC787009DE586 /* K2D-SemiBold.ttf */; };
+		132260ED2E6CC787009DE586 /* K2D-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132260DF2E6CC787009DE586 /* K2D-Medium.ttf */; };
+		132260EE2E6CC787009DE586 /* K2D-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132260E32E6CC787009DE586 /* K2D-SemiBoldItalic.ttf */; };
+		132260EF2E6CC787009DE586 /* K2D-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132260DE2E6CC787009DE586 /* K2D-LightItalic.ttf */; };
+		132260F02E6CC787009DE586 /* K2D-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132260D72E6CC787009DE586 /* K2D-BoldItalic.ttf */; };
+		132260F12E6CC787009DE586 /* K2D-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132260D82E6CC787009DE586 /* K2D-ExtraBold.ttf */; };
+		132260F22E6CC787009DE586 /* K2D-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132260E42E6CC787009DE586 /* K2D-Thin.ttf */; };
+		132260F32E6CC787009DE586 /* K2D-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132260D92E6CC787009DE586 /* K2D-ExtraBoldItalic.ttf */; };
+		132260F42E6CC787009DE586 /* K2D-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132260DB2E6CC787009DE586 /* K2D-ExtraLightItalic.ttf */; };
+		132260F52E6CC787009DE586 /* K2D-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132260E12E6CC787009DE586 /* K2D-Regular.ttf */; };
+		132260F62E6CC787009DE586 /* K2D-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132260D62E6CC787009DE586 /* K2D-Bold.ttf */; };
+		132260F72E6CC787009DE586 /* K2D-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 132260E52E6CC787009DE586 /* K2D-ThinItalic.ttf */; };
+		132260F82E6CC787009DE586 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 132260E62E6CC787009DE586 /* OFL.txt */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		132C25A62E68CF8B0037B80A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +44,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		132260D62E6CC787009DE586 /* K2D-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-Bold.ttf"; sourceTree = "<group>"; };
+		132260D72E6CC787009DE586 /* K2D-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-BoldItalic.ttf"; sourceTree = "<group>"; };
+		132260D82E6CC787009DE586 /* K2D-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-ExtraBold.ttf"; sourceTree = "<group>"; };
+		132260D92E6CC787009DE586 /* K2D-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		132260DA2E6CC787009DE586 /* K2D-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-ExtraLight.ttf"; sourceTree = "<group>"; };
+		132260DB2E6CC787009DE586 /* K2D-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		132260DC2E6CC787009DE586 /* K2D-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-Italic.ttf"; sourceTree = "<group>"; };
+		132260DD2E6CC787009DE586 /* K2D-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-Light.ttf"; sourceTree = "<group>"; };
+		132260DE2E6CC787009DE586 /* K2D-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-LightItalic.ttf"; sourceTree = "<group>"; };
+		132260DF2E6CC787009DE586 /* K2D-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-Medium.ttf"; sourceTree = "<group>"; };
+		132260E02E6CC787009DE586 /* K2D-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-MediumItalic.ttf"; sourceTree = "<group>"; };
+		132260E12E6CC787009DE586 /* K2D-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-Regular.ttf"; sourceTree = "<group>"; };
+		132260E22E6CC787009DE586 /* K2D-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-SemiBold.ttf"; sourceTree = "<group>"; };
+		132260E32E6CC787009DE586 /* K2D-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		132260E42E6CC787009DE586 /* K2D-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-Thin.ttf"; sourceTree = "<group>"; };
+		132260E52E6CC787009DE586 /* K2D-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "K2D-ThinItalic.ttf"; sourceTree = "<group>"; };
+		132260E62E6CC787009DE586 /* OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		132C258F2E68CF890037B80A /* PayUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		132C25A52E68CF8B0037B80A /* PayUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		132C25AF2E68CF8B0037B80A /* PayUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,9 +134,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		132260E72E6CC787009DE586 /* K2D */ = {
+			isa = PBXGroup;
+			children = (
+				132260D62E6CC787009DE586 /* K2D-Bold.ttf */,
+				132260D72E6CC787009DE586 /* K2D-BoldItalic.ttf */,
+				132260D82E6CC787009DE586 /* K2D-ExtraBold.ttf */,
+				132260D92E6CC787009DE586 /* K2D-ExtraBoldItalic.ttf */,
+				132260DA2E6CC787009DE586 /* K2D-ExtraLight.ttf */,
+				132260DB2E6CC787009DE586 /* K2D-ExtraLightItalic.ttf */,
+				132260DC2E6CC787009DE586 /* K2D-Italic.ttf */,
+				132260DD2E6CC787009DE586 /* K2D-Light.ttf */,
+				132260DE2E6CC787009DE586 /* K2D-LightItalic.ttf */,
+				132260DF2E6CC787009DE586 /* K2D-Medium.ttf */,
+				132260E02E6CC787009DE586 /* K2D-MediumItalic.ttf */,
+				132260E12E6CC787009DE586 /* K2D-Regular.ttf */,
+				132260E22E6CC787009DE586 /* K2D-SemiBold.ttf */,
+				132260E32E6CC787009DE586 /* K2D-SemiBoldItalic.ttf */,
+				132260E42E6CC787009DE586 /* K2D-Thin.ttf */,
+				132260E52E6CC787009DE586 /* K2D-ThinItalic.ttf */,
+				132260E62E6CC787009DE586 /* OFL.txt */,
+			);
+			path = K2D;
+			sourceTree = "<group>";
+		};
 		132C25862E68CF890037B80A = {
 			isa = PBXGroup;
 			children = (
+				132260E72E6CC787009DE586 /* K2D */,
 				132C25912E68CF890037B80A /* PayUp */,
 				132C25A82E68CF8B0037B80A /* PayUpTests */,
 				132C25B22E68CF8B0037B80A /* PayUpUITests */,
@@ -237,6 +299,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132260E82E6CC787009DE586 /* K2D-Italic.ttf in Resources */,
+				132260E92E6CC787009DE586 /* K2D-MediumItalic.ttf in Resources */,
+				132260EA2E6CC787009DE586 /* K2D-Light.ttf in Resources */,
+				132260EB2E6CC787009DE586 /* K2D-ExtraLight.ttf in Resources */,
+				132260EC2E6CC787009DE586 /* K2D-SemiBold.ttf in Resources */,
+				132260ED2E6CC787009DE586 /* K2D-Medium.ttf in Resources */,
+				132260EE2E6CC787009DE586 /* K2D-SemiBoldItalic.ttf in Resources */,
+				132260EF2E6CC787009DE586 /* K2D-LightItalic.ttf in Resources */,
+				132260F02E6CC787009DE586 /* K2D-BoldItalic.ttf in Resources */,
+				132260F12E6CC787009DE586 /* K2D-ExtraBold.ttf in Resources */,
+				132260F22E6CC787009DE586 /* K2D-Thin.ttf in Resources */,
+				132260F32E6CC787009DE586 /* K2D-ExtraBoldItalic.ttf in Resources */,
+				132260F42E6CC787009DE586 /* K2D-ExtraLightItalic.ttf in Resources */,
+				132260F52E6CC787009DE586 /* K2D-Regular.ttf in Resources */,
+				132260F62E6CC787009DE586 /* K2D-Bold.ttf in Resources */,
+				132260F72E6CC787009DE586 /* K2D-ThinItalic.ttf in Resources */,
+				132260F82E6CC787009DE586 /* OFL.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
