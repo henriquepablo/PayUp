@@ -49,6 +49,12 @@ final class SplashViewController: UIViewController {
                 UIView.animate(withDuration: 0.5, delay: 0.1, options: .curveEaseInOut) {
                     self.splashView.logoImageView.alpha = 1
                 } completion: { _ in
+                    UIView.animate(withDuration: 0.5,
+                                   delay: 0.4,
+                                   animations: {
+                        self.splashView.example.alpha = 1
+                       
+                    })
                     self.viewModel.onAnimationCompleted?()
                 }
             })
