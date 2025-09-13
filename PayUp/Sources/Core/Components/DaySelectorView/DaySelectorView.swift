@@ -31,8 +31,8 @@ final class DaySelectorView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         setup()
-        setupConstraints()
         setupButtons()
+        updateSelection(index: viewModel.selectedIndex)
     }
     
     required init?(coder: NSCoder) {
@@ -41,7 +41,9 @@ final class DaySelectorView: UIView {
     
     private func setup() {
         addSubview(scrollView)
-        addSubview(stackView)
+        scrollView.addSubview(stackView)
+        setupConstraints()
+
     }
     
     private func setupConstraints() {
@@ -55,6 +57,7 @@ final class DaySelectorView: UIView {
             stackView.leadingAnchor.constraint(equalTo: scrollView.leadingAnchor),
             stackView.trailingAnchor.constraint(equalTo: scrollView.trailingAnchor),
             stackView.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor),
+            stackView.heightAnchor.constraint(equalTo: scrollView.heightAnchor)
         ])
     }
     
@@ -76,7 +79,7 @@ final class DaySelectorView: UIView {
             button.heightAnchor.constraint(equalToConstant: 32).isActive = true
             button.widthAnchor.constraint(equalToConstant: 48).isActive = true
             button.tag = index
-            //button.addTarget(self, action: #selector(dayTapped(_:)), for: .touchUpInside)
+            button.addTarget(self, action: #selector(dayTapped(_:)), for: .touchUpInside)
             buttons.append(button)
             stackView.addArrangedSubview(button)
 
@@ -84,7 +87,16 @@ final class DaySelectorView: UIView {
     }
     
     @objc
-    private func dayTapped() {
-        
+    private func dayTapped(_ sender: UIButton) {
+        updateSelection(index: sender.tag)
+        viewModel.selectdDay(at: sender.tag)
+    }
+    
+    private func updateSelection(index: Int) {
+        for (i, button) in buttons.enumerated() {
+            let isSelected = (i == index)
+            button.configuration?.baseForegroundColor = isSelected ? Colors.accentBrand : Colors.textHeading
+            button.layer.borderColor = isSelected ? Colors.accentBrand.cgColor : UIColor.clear.cgColor
+        }
     }
 }
