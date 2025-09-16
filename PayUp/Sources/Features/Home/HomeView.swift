@@ -36,6 +36,7 @@ final class HomeView: UIView {
     }()
     
     let daySelectorView = DaySelectorView()
+    let paymentCardView = PaymentCardView()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -53,11 +54,13 @@ final class HomeView: UIView {
         addSubview(profileImage)
         addSubview(buttonBell)
         addSubview(daySelectorView)
+        addSubview(paymentCardView)
         setupConstraints()
     }
     
     private func setupConstraints() {
         daySelectorView.translatesAutoresizingMaskIntoConstraints = false
+        paymentCardView.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             logoImage.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: -24),
             logoImage.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 24),
@@ -77,7 +80,12 @@ final class HomeView: UIView {
             daySelectorView.topAnchor.constraint(equalTo: logoImage.bottomAnchor, constant: 24),
             daySelectorView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 24),
             daySelectorView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -24),
-            daySelectorView.heightAnchor.constraint(equalToConstant: 48)
+            daySelectorView.heightAnchor.constraint(equalToConstant: 48),
+            
+            paymentCardView.topAnchor.constraint(equalTo: daySelectorView.bottomAnchor, constant: 24),
+            paymentCardView.leadingAnchor.constraint(equalTo: daySelectorView.leadingAnchor),
+            paymentCardView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -24),
+            paymentCardView.heightAnchor.constraint(equalToConstant: 95)
         ])
     }
     
